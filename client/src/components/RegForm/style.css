@@ -1,0 +1,17 @@
+.input-box {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.input-elem {
+  margin-bottom: 3px;
+}
+
+.fieldset-div {
+  width: 90%;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+}

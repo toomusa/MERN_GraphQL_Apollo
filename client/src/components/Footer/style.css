@@ -1,0 +1,19 @@
+.footer-container {
+  background-color: #8d0034;
+  text-align: center;
+  display: block;
+  color: whitesmoke !important;
+}
+
+.footer-col {
+  padding: 20px 40px;
+  text-align: center;
+}
+
+.footer-col > h5 {
+  color: whitesmoke !important;
+}
+
+.inline {
+  display: inline;
+}

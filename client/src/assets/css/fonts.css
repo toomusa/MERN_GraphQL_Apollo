@@ -1,0 +1,142 @@
+@font-face {
+  font-family: "Ostrich_Black";
+  src: url("../fonts/OstrichSans-Black.otf") format("opentype"),
+      url('../fonts/ostrichsans-black-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsans-black-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Heavy";
+  src: url("../fonts/OstrichSans-Heavy.otf") format("opentype"),
+      url('../fonts/ostrichsans-heavy-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsans-heavy-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Black";
+  src: url("../fonts/AvenirLTStd-Black.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Black.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Black.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_BlackOblique";
+  src: url("../fonts/AvenirLTStd-BlackOblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-BlackOblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Roman";
+  src: url("../fonts/AvenirLTStd-Roman.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Roman.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Roman.woff') format('woff');
+}
+
+/* UNUSED FONTS */
+/* 
+@font-face {
+  font-family: "Ostrich";
+  src: url("../fonts/ostrich-regular.ttf") format("truetype"),
+      url('../fonts/ostrich-regular-webfont.woff2') format('woff2'),
+      url('../fonts/ostrich-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Dashed";
+  src: url("../fonts/OstrichSansDashed-Medium.otf") format("opentype"),
+      url('../fonts/ostrichsansdashed-medium-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsansdashed-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Bold";
+  src: url("../fonts/OstrichSans-Bold.otf") format("opentype"),
+      url('../fonts/ostrichsans-bold-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsans-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Light";
+  src: url("../fonts/OstrichSans-Light.otf") format("opentype"),
+      url('../fonts/ostrichsans-light-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsans-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Medium";
+  src: url("../fonts/OstrichSans-Medium.otf") format("opentype"),
+      url('../fonts/ostrichsans-medium-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsans-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Ostrich_Rounded";
+  src: url("../fonts/OstrichSansRounded-Medium.otf") format("opentype"),
+      url('../fonts/ostrichsansrounded-medium-webfont.woff2') format('woff2'),
+      url('../fonts/ostrichsansrounded-medium-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Book";
+  src: url("../fonts/AvenirLTStd-Book.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Book.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Heavy";
+  src: url("../fonts/AvenirLTStd-Heavy.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Heavy.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Heavy.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_BlackOblique";
+  src: url("../fonts/AvenirLTStd-BlackOblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-BlackOblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-BlackOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_HeavyOblique";
+  src: url("../fonts/AvenirLTStd-HeavyOblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-HeavyOblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-HeavyOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Light";
+  src: url("../fonts/AvenirLTStd-Light.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Light.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_LightOblique";
+  src: url("../fonts/AvenirLTStd-LightOblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-LightOblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-LightOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Medium";
+  src: url("../fonts/AvenirLTStd-Medium.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Medium.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_MediumOblique";
+  src: url("../fonts/AvenirLTStd-MediumOblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-MediumOblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-MediumOblique.woff') format('woff');
+}
+
+@font-face {
+  font-family: "Avenir_Oblique";
+  src: url("../fonts/AvenirLTStd-Oblique.otf") format("opentype"),
+      url('../fonts/AvenirLTStd-Oblique.woff2') format('woff2'),
+      url('../fonts/AvenirLTStd-Oblique.woff') format('woff');
+}
+*/

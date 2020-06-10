@@ -1,0 +1,17 @@
+.header-container {
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.brand-logo {
+  max-height: 80px;
+  padding: 10px 5px;
+  float: left;
+}
+
+.right-logo {
+  max-height: 80px;
+  /* max-width: 200px; */
+  padding: 10px 5px;
+  float: right;
+}

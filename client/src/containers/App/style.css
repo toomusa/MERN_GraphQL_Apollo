@@ -1,0 +1,22 @@
+/* GLOBAL STYLES */
+
+body {
+  background-color: whitesmoke;
+}
+
+.app-container {
+  /* background-color: yellow; */
+}
+
+.app-row {
+  /* background-color: blue; */
+}
+
+.app-col {
+  max-width: 1200px;
+}
+
+.spacer-bottom {
+  margin-bottom: 42px;
+  padding-bottom: 40px;
+}

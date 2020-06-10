@@ -1,0 +1,49 @@
+.auth-input {
+  display: inline-block;
+  margin-right: 5px;
+  width: 200px;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 4px 5px 2px 5px;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  margin-bottom: 5px;
+}
+
+.form-tag {
+  text-align: right;
+}
+
+.selector-caption {
+  text-align: right;
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.selector-div {
+  text-align: right;
+  margin: 0px -7px 5px 5px;
+}
+
+.toggleBtn {
+  margin: 0px 7px 0px 0px;
+}
+
+.auth-tag {
+  color: whitesmoke;
+  margin-bottom: 4px;
+}
+
+.signout-span {
+  padding: 0 3px 0 20px;
+}
+
+@media screen and (max-width: 577px) {
+  .submitBtn {
+    margin-bottom: 5px;
+  }
+}
