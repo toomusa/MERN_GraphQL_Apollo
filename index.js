@@ -5,8 +5,11 @@ const cors = require("cors");
 const routes = require("./routes");
 const app = express();
 
+const expressGraphQL = require('express-graphql')
+const schema = require("./schema");
+
 // Database setup
-mongoose.connect("mongodb://localhost/starterDb", {useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true})
+mongoose.connect("mongodb://localhost/starterDb", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true })
 
 // Middlewares setup
 app.use(express.json());
@@ -18,6 +21,11 @@ app.use(cors());
 if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
+
+app.use("/gql", expressGraphQL({
+    schema: schema,
+    graphiql: true
+}))
 
 // Error Handling Goes Here
 app.use(routes, (req, res) => {

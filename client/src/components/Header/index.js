@@ -7,10 +7,9 @@ import './style.css';
 
 export default function Header() {
   return (
-    <Container fluid className="header-container">
+    <Container fluid className="header-container fixed-top">
       <Row noGutters>
         <Col xs={{span:12}} sm={{span:12}} md={{span:12}} lg={{span:12}} xl={{span:12}}>
-          <h3>Header</h3>
         </Col>
       </Row>
       <Navbar />

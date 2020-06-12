@@ -1,14 +1,27 @@
 #navbar-container {
-  background-color: #8d0034;
+  background-color: orangered;
   font-size: 18px;
 }
 
 #navbar-row {
-  background-color: #8d0034;
+  background-color: orangered;
 }
 
 #navbar-element {
   display: flex;
+}
+
+.brand-container {
+  padding: 0px;
+}
+
+.brand-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  max-height: 105px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .nav-div {
@@ -21,11 +34,11 @@
 }
 
 .link-tag {
-  color: whitesmoke;
+  color: black;
 }
 
 .link-tag:hover {
-  color: #ffdd55;
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -64,14 +77,14 @@
 }
 
 .lang-btn {
-  color: whitesmoke;
+  color: black;
 }
 
 .lang-col {
   padding: 0px;
   display: inline-flex;
   flex: 1;
-  margin-top: 6px;
+  /* margin-top: 5px; */
 }
 
 .lang-select {
@@ -79,26 +92,26 @@
 }
 
 .dropdown-menu {
-  background-color: #8d0034 !important;
+  background-color: orangered !important;
   margin: 0px 2px;
   padding: 8px 1px 2px 1px;
   min-width: 80px;
-  border: 2px solid whitesmoke;
+  border: 2px solid black;
 }
 
 .dropdown-menu > a:hover, .dropdown-menu > a:focus {
   background-image: none !important;
-  background-color: #8d0034;
-  color: #ffdd55 !important;
+  background-color: orangered;
+  color: whitesmoke !important;
 }
 
 .lang-tag > a:hover {
-  color: #ffdd55 !important;
+  color: whitesmoke !important;
 }
 
 .lang-tag a {
-  /* margin-top: -7px; */
-  color: whitesmoke !important;
+  margin-top: -1px;
+  color: black !important;
 }
 
 @media screen and (max-width: 576px) {
@@ -173,20 +186,20 @@
 }
 
 .auth-tag {
-  color: whitesmoke;
+  color: black;
 }
 
 .welcome-tag {
-  color: whitesmoke;
+  color: black;
 }
 
 .link-active {
-  color: #ffdd55;
+  color: whitesmoke;
   font-weight: bold;
 }
 
 .btn-primary {
-  color: whitesmoke;
+  color: black;
 }
 
 .btn-outline-warning {
@@ -235,4 +248,5 @@
   display: flex;
   flex: 2;
   align-items: flex-start;
+  margin-left: 100px;
 }

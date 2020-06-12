@@ -1,8 +1,9 @@
 .footer-container {
-  background-color: #8d0034;
+  background-color: orangered;
   text-align: center;
   display: block;
   color: whitesmoke !important;
+  min-height: 50px;
 }
 
 .footer-col {

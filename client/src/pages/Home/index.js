@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { compose } from "redux";
-import { connect } from "react-redux";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import AddLogForm from '../../components/AddLogForm';
 import "./style.css";
 
 class Home extends Component {
@@ -13,7 +12,10 @@ class Home extends Component {
       <Container fluid>
         <Row>
           <Col className="main-section">
-            <h2>Home Page</h2>
+            <h2 className="my-4">Enter a New Log</h2>
+            <Container className="w-50">
+              <AddLogForm />
+            </Container>
           </Col>
         </Row>
       </Container>
@@ -21,10 +23,4 @@ class Home extends Component {
   }
 }
 
-function mapStateToProps(state) {
-  return { state };
-}
-
-export default compose(
-  connect(mapStateToProps, {}),
-)(Home);
+export default Home;

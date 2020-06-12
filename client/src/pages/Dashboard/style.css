@@ -1,3 +1,14 @@
 .main-section {
   min-height: 400px;
 }
+
+.segment {
+  min-height: 300px;
+  border: 1px solid lightgray;
+  padding: 20px;
+}
+
+.nav-tabs .nav-item {
+  /* color: red; */
+  /* border: 1px solid black; */
+}

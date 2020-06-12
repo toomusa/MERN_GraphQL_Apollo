@@ -16,6 +16,7 @@ import Signup from '../Auth/Signup';
 import Signout from '../Auth/Signout';
 import { loadEnglish, loadSpanish } from "../../actions/pageActions";
 import content from "../../static/content";
+import petTiger from "../../assets/images/petTiger.jpg";
 
 class Navigation extends Component {
 
@@ -184,6 +185,9 @@ class Navigation extends Component {
           <Navbar expand="md" collapseOnSelect variant="light" id="navbar-element">
 
             <Col xs={{ order: 4 }} sm={{ order: 4 }} md={{ order: 2 }} className="nav-col">
+              <Navbar.Brand className="brand-container">
+                <img src={petTiger} className="brand-img" alt="Pet-Tiger" />
+              </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="nav-links-div">

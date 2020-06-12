@@ -9,10 +9,10 @@ import './style.css';
 class Footer extends Component {
   render() {
     return (
-      <Container fluid className="footer-container">
+      <Container fluid className="footer-container fixed-bottom">
         <Row>
           <Col xs={{span:12}} sm={{span:12}} md={{span:12}} lg={{span:12}} xl={{span:12}}>
-            <h3>Footer</h3>
+
           </Col>
         </Row>
       </Container>
